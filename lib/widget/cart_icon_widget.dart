@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_garage_sale_app/page/cart_page.dart';
-import 'package:riverpod_garage_sale_app/provider/cart_provider.dart';
+
+import '../page/cart_page.dart';
+import '../provider/cart_provider.dart';
 
 class CartIconWidget extends ConsumerWidget {
   const CartIconWidget({super.key});
